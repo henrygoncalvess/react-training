@@ -1,7 +1,13 @@
+import Container from "./components/Container";
+import Counter from "./components/Counter";
+
 function App() {
   return (
     <>
-      <h1>hello world</h1>
+      <Container title="Counter" desc="useState()">
+        <Counter />
+      </Container>
+      <Container title="Other" desc="Other"></Container>
     </>
   );
 }
