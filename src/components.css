@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-content: space-evenly;
+  flex-flow: row wrap;
+  min-height: 100vh;
+  width: clamp(200px, 100%, 80vw);
+  margin: auto;
+}
+
+.container {
+  flex: 0 1 600px;
+  border: 2px solid black;
+  padding: 1rem;
+  border-radius: 20px;
+  margin: 0.5rem 0.5rem;
+  text-align: center;
+}
+
+.container h3 {
+  color: rgb(149, 149, 149);
+}
+
+.relatedTo {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.relatedTo p {
+  flex: 1 1 100%;
+}
+
+.relatedTo button {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
