@@ -1,6 +1,6 @@
 import Container from "./components/Container";
 import Counter from "./components/Counter";
-import PasswordSection from "./components/PasswordSection";
+import PasswordSection from "./components/PasswordSection/PasswordSection";
 
 function App() {
   return (
