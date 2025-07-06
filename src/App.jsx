@@ -5,7 +5,7 @@ import PasswordSection from "./components/PasswordSection";
 function App() {
   return (
     <>
-      <Container title="Counter" desc="useState()">
+      <Container title="State" desc="useState()">
         <Counter />
       </Container>
       <Container title="Lifting State Up" desc="onChange() event">

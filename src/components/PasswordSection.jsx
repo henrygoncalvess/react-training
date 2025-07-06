@@ -13,7 +13,7 @@ export default function PasswordSection() {
         onChange={(event) => setPassword(event.target.value)}
         value={password}
       />
-      {password.length > 0 && (
+      {typeof password === "string" && password.length > 0 && (
         <div className="passwordSection">
           <PasswordErrorAlert password={password} />
         </div>
