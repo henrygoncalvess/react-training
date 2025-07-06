@@ -1,6 +1,6 @@
 import Container from "./components/Container";
 import Counter from "./components/Counter";
-import PasswordInput from "./components/PasswordInput";
+import PasswordSection from "./components/PasswordSection";
 
 function App() {
   return (
@@ -8,8 +8,8 @@ function App() {
       <Container title="Counter" desc="useState()">
         <Counter />
       </Container>
-      <Container title="Inputs" desc="onChange() event">
-        {/* <PasswordInput /> */}
+      <Container title="Lifting State Up" desc="onChange() event">
+        <PasswordSection />
       </Container>
     </>
   );
